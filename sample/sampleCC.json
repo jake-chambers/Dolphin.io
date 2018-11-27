@@ -1,0 +1,21 @@
+deposit into dophin
+{
+    "createTransactionRequest": {
+        "merchantAuthentication": {
+            "name": "API_LOGIN_ID",
+            "transactionKey": "API_TRANSACTION_KEY"
+        },
+                "refId": "123456", 
+        "transactionRequest": {
+            "transactionType": "authCaptureTransaction",
+            "amount": "5",
+            "payment": {
+                "creditCard": {
+                    "cardNumber": "5424000000000015",
+                    "expirationDate": "2020-12",
+                    "cardCode": "999"
+                }
+            }
+        }
+    }
+}

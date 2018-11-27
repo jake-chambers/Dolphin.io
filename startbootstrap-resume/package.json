@@ -1,0 +1,74 @@
+{
+  "_from": "startbootstrap-resume",
+  "_id": "startbootstrap-resume@5.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-pPwSHGteaCEHEAj0VwceA3ODQmRoz+ExuXsvbQzGZtujyoNrtPtPvb+jIdojIASjijGRhdoLvd7nNUefYrg9mw==",
+  "_location": "/startbootstrap-resume",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "startbootstrap-resume",
+    "name": "startbootstrap-resume",
+    "escapedName": "startbootstrap-resume",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/startbootstrap-resume/-/startbootstrap-resume-5.0.2.tgz",
+  "_shasum": "f7026633bcb3bd2f856e49b211521b8e11cfd112",
+  "_spec": "startbootstrap-resume",
+  "_where": "/Users/Sheldon/Desktop/DolphinV1/Front-end",
+  "author": {
+    "name": "Start Bootstrap"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+    "email": "feedback@startbootstrap.com"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "David Miller",
+      "url": "http://davidmiller.io/"
+    }
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.3.1",
+    "bootstrap": "4.1.3",
+    "jquery": "3.3.1"
+  },
+  "deprecated": false,
+  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "devDependencies": {
+    "browser-sync": "2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "3.10.0",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.1",
+    "gulp-uglify": "3.0.1"
+  },
+  "homepage": "https://startbootstrap.com/template-overviews/resume",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "license": "MIT",
+  "name": "startbootstrap-resume",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
+  },
+  "title": "Resume",
+  "version": "5.0.2"
+}

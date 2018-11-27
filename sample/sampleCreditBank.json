@@ -1,0 +1,23 @@
+withdraw out of dophine
+{
+    "createTransactionRequest": {
+        "merchantAuthentication": {
+            "name": "API_LOGIN_ID",
+            "transactionKey": "API_TRANSACTION_KEY"
+        },
+        "refId": "123456",
+        "transactionRequest": {
+            "transactionType": "refundTransaction",
+            "amount": "5",
+            "payment": {
+                "bankAccount": {
+                    "accountType": "checking",
+                    "routingNumber": "121042882",
+                    "accountNumber": "123456789000",
+                    "nameOnAccount": "John Doe"
+                }
+            },
+            "refTransId": "2148889729"
+        }
+    }
+}

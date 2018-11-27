@@ -1,0 +1,33 @@
+https://www.json-generator.com/#
+[
+  '{{repeat(300, 500)}}',
+  {
+    _id: '{{objectId()}}',
+    wallet_id: '{{phone()}}',
+    balance: '{{integer([0], [99999])}}',
+    in_app_transactions: [
+      '{{repeat([0], [12])}}',
+      {
+        date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+        type: function (tags) {
+          var types = ['sent', 'received'];
+          return types[tags.integer(0, types.length - 1)];
+        },
+        partner: '{{phone()}}',
+        amount: '{{integer([1], [9999])}}'
+      }
+    ],
+    out_app_transactions: [
+      '{{repeat([0], [6])}}',
+      {
+        date: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+        type: function (tags) {
+          var types = ['sent', 'received'];
+          return types[tags.integer(0, types.length - 1)];
+        },
+        partner: '{{phone()}}',
+        amount: '{{integer([1], [9999])}}'
+      }
+    ]
+  }
+]

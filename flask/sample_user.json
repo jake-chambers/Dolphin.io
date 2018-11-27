@@ -1,0 +1,22 @@
+{
+    "_id": "5bf95c12cdf877dc29936b57",
+    "wallet_id": "7096990068",
+    "password": "dsdoiasoidjsaoijd",
+    "balance": 90567,
+    "in_app_transactions": [
+        {
+            "date": "2016-06-15T05:16:10 +02:30",
+            "type": "received",
+            "wallet_id": "6982740974",
+            "amount": 2700
+        }
+    ],
+    "out_app_transactions": [
+        {
+            "date": "2014-05-12T04:14:10 +02:30",
+            "type": "received",
+            "refid": "123456",
+            "amount": 909
+        }
+    ]
+}
